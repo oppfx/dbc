@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'zpix';
+  /* src:url('../fonts/zpix-v3.1.1.ttf') format('truetype'); */
+  src:url('https://cdn.jsdelivr.net/gh/oppfx/cordyceps/fonts/zpix-v3.1.1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+div::-webkit-scrollbar {
+  display: none;
+}
+html{
+	height: 100%;
+}
+a{
+  color: #fff;
+}
+a:hover{
+  color: #666;
+  text-decoration: none;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.text-ellipsis{
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  font-family: "zpix";
+  color: #fff;
+}
+h1, .h1 {
+  font-size: 2rem;
+}
+
+h2, .h2 {
+  font-size: 1.5rem;
+}
+
+h3, .h3 {
+  font-size: 1.5rem;
+}
+
+h4, .h4 {
+  font-size: 1.25rem;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+}
+
+h6, .h6 {
+  font-size: .75rem;
+}
+
+.vertical-center{
+  vertical-align:middle;
+}
+
+.hide{
+  display: none;
+}
+
+
+.bg-theme{
+  background-color: #708090;
+}
+.bg-purple{
+  background-color: #d076fa;
+}
+.bg-green{
+  background-color: #92cc41;
+}
+.bg-orange{
+  background-color: #e76e55;
+}
+
+.bg-yellow{
+  background-color: #f7d51d;
+}
+.bg-blue{
+  background-color: #209cee;
+}
+.bg-brown{
+  background-color: #8B572A;
+}
+.bg-dark{
+  background-color: #212529;
+}
+.bg-wheat{
+  background-color: #f5deb3;
+}
+.bg-secondary{
+  background-color: #708090;
+}
+
+
+.white{
+  color: #fff ;
+}
+.black {
+  color: black;
+}
+.orange{
+  color: #cf644e ;
+}
+.red{
+  color: #F00 ;
+}
+.yellow{
+  color: #FDC02F ;
+}
+.green{
+  color:#78c014 ;
+}
+.gray{
+  color:#666 ;
+}
+.secondary{
+  color: #3e5368 ;
+}
+
+.mt--2{
+  margin-top:-.5rem!important
+}
+.mr--2{
+  margin-right:-.5rem!important
+}
+.ml--2{
+  margin-left:-.5rem!important
+}
+.ml--4{
+  margin-left:-1rem!important
+}
+.h7{
+  font-size: 0.75rem;
+}
+ /* reset bootstrap*/
+
+.btn{
+  padding: .375rem 1.5rem;
+}
+
+i:hover{
+  cursor: pointer;
+  color: #666;
+}
+.pointer{
+  cursor: pointer;
+}
+.navbar{
+  padding: 1.5rem 2rem;
+}
+.card{
+  background-color: #292e33;
+  border: 1px solid #292e33;
+  
+}
+.bd_1{
+  border: 1px solid #708090;
+}
+.bd_2{
+  border: 1px solid #3a424b;
+}
+.bd_3{
+  border: 1px solid #212529;
+}
+.bd_red{
+  border: 1px solid #cf644e;
+}
+.bd_green{
+  border: 1px solid #78c014;
+}
+
+/* //project */
+
+.block_btn{
+  border: 4px solid #000;
+  background-color: transparent;
+}
+.block_btn:focus{outline:0;}
+
+.block_btn:hover{
+  background-color: rgba(0,0,0,.3);
+}
+
+.footer{
+  color: #ddd;
+  margin-top: 50px;
+}
+
+
+.home_content .nes-balloon{
+  width: 18rem;
+}
+.farms_pool .row{
+  padding: 0 2rem;
+}
+.farms_pool .pool_card{
+  width: 15rem;
+  height: 21rem;
+  /* text-overflow:ellipsis;
+  white-space:nowrap; */
+  overflow: hidden;
+ 
+
+}
+.pool_mark{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  z-index: 2;
+  width: 2rem ;
+  /* height: .3rem; */
+}
+.pack_nft_content{
+  width: 80%;
+  height: 40rem;
+}
+.pack_nft_content .pnl_col:hover{
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+  background-color: rgba(0,0,0,.3);
+}
+.blink{
+  animation: blink 1s infinite steps(1, start);
+}
+/*cursor blink*/
+@keyframes blink {
+  0%, 100% {
+      /* background-color: #92cc41; */
+      color: transparent;
+  }
+  50% {
+      /* background-color: #212529; not #aaa because it's seem there is Google Chrome bug */
+      color: #92cc41;
+  }
+}
+
+
+
+@media(max-width:768px){
+	body {
+    margin-left: 0;
+    margin-right: .5%;
+    margin-top: 0;
+  }
+  
+  .navbar {
+    padding: 1rem 0.5rem;
+  }
+  .home_content{
+    width: 95%;
+  }
+  
+  .nav_right{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+  }
+ 
+
+  .pool_mark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    width: 2rem ;
+    /* height: .3rem; */
+  }
+
+}
