@@ -7,6 +7,10 @@ var indexhtml = {
         'zh-cn':'添加',
         'en-us':'Add'
     },
+    selcnet:{
+        'zh-cn':'选择一个网络',
+        'en-us':'SELECT NETWORK'
+    },
     banks:{
         'zh-cn':'银行',
         'en-us':'Banks'
